@@ -72,7 +72,7 @@ Used **PivotTables** and **Charts** to:
 
 **Yashdeep Saxena**  
 Aspiring Data Analyst | B.Tech Final Year  
-[GitHub](https://github.com/Yashu278) | [LinkedIn](https://www.linkedin.com/in/yashu278)
+[GitHub](https://github.com/Yashu278) | [LinkedIn](https://www.linkedin.com/in/yashdeep-saxena-3a6914295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoDGMlxhHSJ2IsajFjIs4%2BA%3D%3D)
 
 ---
 
