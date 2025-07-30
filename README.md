@@ -1,70 +1,87 @@
 # 📊 Sales Performance Analysis — Superstore Dataset
 
-This project focuses on analyzing sales performance using the **Superstore dataset**. The goal is to extract meaningful business insights through **data cleaning**, **exploratory data analysis (EDA)**, and **visualization** using **Excel**, **Python**, and optionally **Power BI**.
+This project presents a comprehensive analysis of sales performance using the **Superstore dataset**, aimed at uncovering actionable business insights. The analysis is performed using **Excel**, **Python (Pandas & Matplotlib)**, and **Power BI** to build both static and interactive dashboards.
 
 ---
 
 ## 🧠 Objective
 
-To identify trends, customer behavior, top-performing products, loss-making areas, and regional sales performance — while learning how to use different tools (Excel, Python, Power BI) for real-world data analytics workflows.
+To identify trends, customer behavior patterns, high- and low-performing products, discount impacts, and regional profitability — while developing end-to-end analytics skills with real-world tools.
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
 - **Excel** – Data cleaning, PivotTables, and chart visualizations  
-- **Python** – Pandas, Matplotlib for data analysis and EDA  
-- **Power BI** *(optional)* – For interactive dashboard creation  
-- **Jupyter Notebook** – For scripting and experimenting with Python code  
+- **Python** – Pandas, Matplotlib for data manipulation and EDA  
+- **Power BI** – Interactive dashboard creation for deeper insights  
+- **Jupyter Notebook** – Python scripting and documentation  
 
 ---
 
 ## ⚙️ Project Workflow
 
-### 1. 🔍 Data Cleaning (in Excel & Python)
-- Removed unnecessary columns (e.g., `Row ID`)
-- Converted `Order Date` and `Ship Date` to proper datetime formats
-- Created new columns: `Order Year`, `Order Month`
-- Trimmed white spaces, handled inconsistencies
-- Verified null values (none found)
+### 1. 🔍 Data Cleaning (Excel + Python)
+- Removed irrelevant columns (e.g., `Row ID`)
+- Converted `Order Date` and `Ship Date` into datetime format
+- Created additional time columns: `Order Year`, `Order Month`
+- Trimmed whitespace and fixed inconsistencies
+- Checked for and confirmed absence of null values
 
-> ✅ Cleaning in both Excel and Python allowed better understanding of workflow differences.
+> ✅ Cleaning done in both Excel and Python for comparative understanding of tool capabilities.
 
 ---
 
 ### 2. 📋 Dataset Structure
 
-Key columns include:
-- **Sales, Quantity, Discount, Profit** – for financial metrics  
-- **Category, Sub-Category, Product Name** – for product-level analysis  
-- **Region, State, City** – for geographic segmentation  
-- **Segment, Customer Name** – for customer behavior insights  
-- **Order/Ship Dates** – for time-based trends  
+Key columns analyzed:
+- **Sales, Quantity, Discount, Profit** – core financial metrics  
+- **Category, Sub-Category, Product Name** – product performance analysis  
+- **Region, State, City** – geographic performance insights  
+- **Segment, Customer Name** – customer segmentation and loyalty  
+- **Order/Ship Dates** – time series trends  
 
 ---
 
-### 3. 🎯 EDA Goals
+## 🎯 Analysis Goals
 
-Based on domain knowledge and AI-guided suggestions:
-- Identify **top-performing categories/sub-categories**
-- Analyze **regional sales and profitability**
-- Assess impact of **discounts on profit**
-- Discover **monthly/yearly sales trends**
-- Examine **segment-wise performance**
-- Find **low-performing states/cities/customers**
+Guided by domain knowledge and exploratory instincts:
+- Identify **top and bottom-performing product categories**
+- Assess **sales and profit trends by region and segment**
+- Understand **discount–profit correlation**
+- Track **monthly and yearly revenue/profit trends**
+- Highlight **loss-making states/customers**
 
 ---
 
-### 4. 📊 EDA in Excel
+## 📊 Visual Analysis in Excel
 
 Used **PivotTables** and **Charts** to:
-- Analyze **Sales by Region**
-- Correlate **Discount vs Profit**
-- Compare **Category/Sub-category performance**
-- Track **monthly revenue/profit trends**
-- Visualize **segment distribution**
+- Visualize **sales and profit by region**
+- Compare **sub-category and category performance**
+- Plot **discount vs profit correlations**
+- Analyze **monthly revenue trends**
+- Display **customer segments distribution**
 
-> 💡 Excel proved highly intuitive and fast for small to mid-scale business analysis.
+---
+
+## 📈 Interactive Dashboard in Power BI
+
+A dynamic dashboard was built using **Power BI** to allow deep filtering, interactivity, and real-time updates. Key features:
+- Drilldowns by **region, state, category, sub-category**
+- Interactive filtering on **segments and discounts**
+- Line charts for **time-series profit/sales trends**
+- Bar and map visuals for **regional performance**
+
+> 🚀 Power BI enhances stakeholder presentation with interactive and real-time dashboard capabilities.
+
+### 🖼️ Power BI Dashboard Previews
+
+<p float="left">
+  <img src="assets/SS-1.png" width="32%"/>
+  <img src="assets/SS-2.png" width="32%"/>
+  <img src="assets/SS-3.png" width="32%"/>
+</p>
 
 ---
 
@@ -72,7 +89,6 @@ Used **PivotTables** and **Charts** to:
 
 **Yashdeep Saxena**  
 Aspiring Data Analyst | B.Tech Final Year  
-[GitHub](https://github.com/Yashu278) | [LinkedIn](https://www.linkedin.com/in/yashdeep-saxena-3a6914295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoDGMlxhHSJ2IsajFjIs4%2BA%3D%3D)
+[GitHub](https://github.com/Yashu278) | [LinkedIn](https://www.linkedin.com/in/yashdeep-saxena-3a6914295)
 
 ---
-
